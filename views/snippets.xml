@@ -239,7 +239,7 @@
               <h3 class="primary-heading">Why are we That Special?</h3>
                </div>
             <div class="col-lg-3 pt8 o_colored_level">
-              <p style="float:right;" class="centered-content">
+              <p class="centered-content">
                 <a href="/contactus" class="primary-btn">Send Enquery</a>
               </p>
             </div>
@@ -280,6 +280,30 @@
         </div>
       </section>
 </template>
+<template id="s_content_company_built" name="content Company Built">
+  <section class="centered-content s_call_to_action o_cc  pt48 pb24 o_colored_level">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-9 pb16 o_colored_level">
+              <h3 class="primary-heading">We Care as We Built</h3>
+              <p class="primary-paragraph">This world is for everyone and we ensure we respect resourses and we are certified social friendly as we built these wonderful products for you</p>
+            </div>
+            <div class="col-lg-4 pt32 pb32 text-center o_colored_level">
+            <p class="primary-paragraph">GREEN BUILDING GOLD RATING by</p>
+            <h3 class="primary-heading"> LEED AND IGBC</h3>
+            </div>
+            <div class="col-lg-4 pt32 pb32 text-center o_colored_level">
+            <p class="primary-paragraph">WATER HARVEST WITH</p>
+            <h3 class="primary-heading">RWH SYSTEM</h3>
+            </div>
+            <div class="col-lg-4 pt32 pb32 text-center o_colored_level">
+            <p class="primary-paragraph">ENERGY CONVERSION</p>
+           <h3 class="primary-heading">SOLAR-PV SYSTEM</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+</template>
 
 
 
@@ -309,14 +333,14 @@
         <t t-snippet="theme_penguin_apparels.s_content_quality_list" t-thumbnail="/theme_penguin_apparels/static/src/images/logos/PenguinApparels-Logo.png"/>
     </xpath>
 </template>
-<template id="place_into_five" inherit_id="website.snippets" name="Place into five">
-    <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
-        <t t-snippet="theme_penguin_apparels.s_content_quality_list" t-thumbnail="/theme_penguin_apparels/static/src/images/logos/PenguinApparels-Logo.png"/>
-    </xpath>
-</template>
 <template id="place_into_six" inherit_id="website.snippets" name="Place into six">
     <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
         <t t-snippet="theme_penguin_apparels.s_content_process_list" t-thumbnail="/theme_penguin_apparels/static/src/images/logos/PenguinApparels-Logo.png"/>
+    </xpath>
+</template>
+<template id="place_into_five" inherit_id="website.snippets" name="Place into five">
+    <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
+        <t t-snippet="theme_penguin_apparels.s_content_company_built" t-thumbnail="/theme_penguin_apparels/static/src/images/logos/PenguinApparels-Logo.png"/>
     </xpath>
 </template>
 </odoo>
