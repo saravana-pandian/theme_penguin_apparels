@@ -26,7 +26,8 @@
         # 'security/ir.model.access.csv',
         'views/assets.xml',
         'views/header.xml',
-        'views/snippets.xml'
+        'views/snippets.xml',
+        'views/footer.xml'
     ],
     # only loaded in demonstration mode
     'demo': [
