@@ -1,3 +1,346 @@
 <odoo>
-   
+   <template id="s_company_summary" name="Company summary">
+    <section class="s_company_summary">
+           <div class="container">
+                <div class="pt16 pb16">
+                    <p>1990,</p>
+                    <h1 class="primary-heading sizeof-content-one pt16 pb16">Garmenting Solution For Generation </h1>
+                    <p class="primary-paragraph">we are One of the leading apparels manufacturess in india, producing hihg qualityy garments for our customers. We offer a full scale manufacturing solution including a range of services</p>
+                </div>
+           </div>
+    </section>
+</template>
+<template id="s_content_principles" name="content principles">
+<section class="s_text_image pt32 pb32 o_colored_level">
+           <div class="container">
+           <div class="row align-items-center">
+            <div class="col-lg-6 jumbotron rounded o_cc o_cc1 pt32 pb32 o_colored_level our-vission-one" data-name="Box">
+             <div class="row s_nb_column_fixed">
+              <h1>
+                <font class="primary-heading">Our Vissions</font>
+              </h1>
+              <p class="lead primary-paragraph">To be the World class Plant Producing Best-quality of ready made garments at optimum cost in an eco-freinedly, safe and healthy environment</p>
+              <p class="lead primary-paragraph">We will learn our customs enthusiasm by Providing the best customer experiance through our performence and continous improvement driven by integrity, teamwork and innovation</p>  
+            </div>
+          </div>
+        
+            <div class="col-lg-6 pt16 pb16 umbotron jumbotron-img rounded o_cc o_cc1 o_colored_level our-vission-two">
+              <img src="/theme_penguin_apparels/static/src/images/Stretching-Machine-Web-View.png" class="img img-fluid mx-auto"/>
+            </div>
+            </div>
+            <div class="col-lg-6 jumbotron jumbotron-img rounded o_cc o_cc1 pt32 pb32 o_colored_level our-vission-three" data-name="Box">
+            <div class="s_allow_columns o_container_small pb32 pt32 pl16 pr16">
+          <h1>
+            <font class="primary-heading text-white">Our Guiding Principles</font>
+          </h1>
+          <p class="lead primary-paragraph text-white">To perform to excced and to deliver best quality products on time, We strongly believe in pour guiding principles</p>
+            <a href="/contactus" class="primary-btn text-white">Contact us</a>
+        </div>
+        </div>
+          </div>
+      </section>
+</template>
+
+
+
+
+
+
+
+<template id="s_content_products" name="content products">
+      <section class="s_features pt32 pb32 o_colored_level">
+        <div class="container">
+        <div class="row">
+            <div class="col-lg-9 pb16 o_colored_level">
+              <h3 class="primary-heading">Products That We Offers</h3>
+              <p class="primary-paragraph">It is With High Skill and almost attention to detail, we deliver a wide varity of Products in every segment we cater to. We are trusted by some of the biggest Barands in the apparel world</p>
+            </div>
+            <div class="col-lg-3 pt8 o_colored_level">
+              <p class="centered">
+                <a href="/contactus" class="primary-btn">Full Gallery</a>
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-4 pt32 pb32 text-center o_colored_level">
+            <picture>
+              <source media="(max-width: 991px) and (min-width: 768px)" srcset="/theme_penguin_apparels/static/src/images/Womens-Wear-Tablet-View.png">
+                <source media="(min-width: 991px)" srcset="/theme_penguin_apparels/static/src/images/Womens-Wear-Web-View.png">
+                  <source media="(max-width: 768px)" srcset="/theme_penguin_apparels/static/src/images/Womens-Wear-Mobile-View.png">
+                    <img class="content-product-image" src="/theme_penguin_apparels/static/src/images/Womens-Wear-Web-View.png" alt="Womens Wear Product"/>
+                    </source>
+                </source>
+              </source>
+            </picture>
+                <h3 class="primary-heading">Womens Wear</h3>
+            </div>
+            <div class="col-lg-4 pt32 pb32 text-center o_colored_level">
+            <picture>
+              <source media="(max-width: 991px) and (min-width: 768px)" srcset="/theme_penguin_apparels/static/src/images/Kids-wear-Tablet-View.png">
+                <source media="(min-width: 991px)" srcset="/theme_penguin_apparels/static/src/images/Kids-Wear-Web-View.png">
+                  <source media="(max-width: 768px)" srcset="/theme_penguin_apparels/static/src/images/Kids-Wear-Mobile-View.png">
+                    <img class="content-product-image" src="/theme_penguin_apparels/static/src/images/Kids-Wear-Web-View.png" alt="Kids Wear Product"/>
+              </source>
+                </source>
+              </source>
+            </picture>
+              <h3 class="primary-heading">Kids Wear</h3>
+            </div>
+            <div class="col-lg-4 pt32 pb32 text-center o_colored_level">
+            <picture>
+              <source media="(max-width: 991px) and (min-width: 768px)" srcset="/theme_Penguin/static/src/images/Mens-Wear-Tablet-View.png">
+                <source media="(min-width: 991px)" srcset="/theme_penguin_apparels/static/src/images/Mens-Wear-Web-View.png">
+                  <source media="(max-width: 768px)" srcset="/theme_penguin_apparels/static/src/images/Mens-Wear-Mobile-View.png">
+                   <img class="content-product-image" src="/theme_penguin_apparelsn/static/src/images/Mens-Wear-Web-View.png" alt="Mens Wear Product"/>
+              </source>
+                </source>
+              </source>
+            </picture>
+               <h3 class="primary-heading">Mens Wear</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+</template>
+<template id="s_content_quality_list" name="content quality list">
+<section class=" centered-content s_call_to_action o_cc  pt48 pb24 o_colored_level">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-9 pb16 o_colored_level">
+              <h3 class="primary-heading">Why are we That Special?</h3>
+               </div>
+            <div class="col-lg-3 pt8 o_colored_level">
+              <p class="centered-content">
+                <a href="/contactus" class="primary-btn">Send Enquery</a>
+              </p>
+            </div>
+          </div>
+          <div class="row align-items-center">
+            <div class="col-lg-6 pt16 pb16 o_colored_level">
+            <picture>
+              <source media="(max-width: 991px) and (min-width: 768px)" srcset="/theme_Penguin/static/src/images/PenguinApparel-Building-Mobile-View.jpg">
+                <source media="(min-width: 991px)" srcset="/theme_penguin_apparels/static/src/images/PenguinApparel-Building-Web-View.png">
+                  <source media="(max-width: 768px)" srcset="/theme_penguin_apparels/static/src/images/PenguinApparel-Building-Mobile-View.jpg">
+                    <img class="img img-fluid img-max mx-auto" src="/theme_penguin_apparels/static/src/images/PenguinApparel-Building-Web-View.png" alt="Penguin Apparels Building Image"/>
+              </source>
+                </source>
+              </source>
+            </picture>
+            </div>
+            <div class="col-lg-6 pt16 pb16 o_colored_level content_quality_list primary-heading">
+            <ul class="two_in_row">
+              <li><img class="logo-size" src="/theme_penguin_apparels/static/src/images/logos/nedle.png"/></li>
+              <li> Design and Devolopment</li>
+              </ul>
+              <ul class="two_in_row">
+              <li><img class="logo-size" src="/theme_penguin_apparels/static/src/images/logos/procces.png"/></li>
+              <li> Flexibles and Minimums</li>
+              </ul>
+              <ul class="two_in_row">
+              <li><img class="logo-size" src="/theme_penguin_apparels/static/src/images/logos/Inspect-Logo.png"/></li>
+              <li> Prototyping and Samplings</li>
+              </ul>
+              <ul class="two_in_row">
+              <li><img class="logo-size" src="/theme_penguin_apparels/static/src/images/logos/folded.png"/></li>
+              <li> Fabric Sourcing and Devolopment</li>
+              </ul>
+              <ul class="two_in_row">
+              <li><img class="logo-size" src="/theme_penguin_apparels/static/src/images/logos/shirt.png"/></li>
+              <li> Pattern devolopment</li>
+              </ul>
+              <ul class="two_in_row">
+              <li><img class="logo-size" src="/theme_penguin_apparels/static/src/images/logos/timekeep.png"/></li>
+              <li> Quick Order Fullfillment</li>
+              </ul>
+              <ul class="two_in_row">
+              <li><img class="logo-size" src="/theme_penguin_apparels/static/src/images/logos/protection.png"/></li>
+              <li> Trusted Quality Standards</li>
+           </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+</template>
+<template id="s_content_process_list" name="content process list">
+  <section class=" centered-content s_call_to_action o_cc  pt48 pb24 o_colored_level process-content-web">
+        <div class="container">
+          <div class="row">
+          <div class="col-lg-9 pb16 o_colored_level">
+              <h3 class="primary-heading">Why are we That Special?</h3>
+               </div>
+            <div class="col-lg-3 pt8 o_colored_level">
+              <p style="float:right;" class="centered-content">
+                <a href="/contactus" class="primary-btn">Send Enquery</a>
+              </p>
+            </div>
+          <div class="col-lg-6 pt16 pb16 o_colored_level">
+            <p class="primary-paragraph">We are goiing to launch a rocket to space soon. Just Kidding! But Seriously We can Make wonders with our diverse pool of Machinery. We use latest generation machinary to produce premium quality products.</p>
+              <h6 class="primary-bold-paragraph">And we completely audit our product by</h6>
+               <div class="row">
+            <div class="col-lg-4 pt32 pb32 text-center o_colored_level">
+            <img class="logo-size" src="/theme_penguin_apparels/static/src/images/logos/Raw-Matirel-Logo.png"/>
+            <h3 class="primary-paragraph">Raw Matierial inspection and testing</h3>
+            </div>
+            <div class="col-lg-4 pt32 pb32 text-center o_colored_level">
+            <img class="logo-size" src="/theme_penguin_apparels/static/src/images/logos/Fabric-Logo.png"/>
+            <h3 class="primary-paragraph">Fusing bond strength testing</h3>
+            </div>
+            <div class="col-lg-4 pt32 pb32 text-center o_colored_level">
+           <img class="logo-size" src="/theme_penguin_apparels/static/src/images/logos/Testing-Loigo.png"/>
+           <h3 class="primary-paragraph">Fastener pull strength testing</h3>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-4 pt32 pb32 text-center o_colored_level">
+            <img class="logo-size" src="/theme_penguin_apparels/static/src/images/logos/Metal-Logo.png"/>
+               <h3 class="primary-paragraph">Metal Deletion test</h3>
+            </div>
+            <div class="col-lg-4 pt32 pb32 text-center o_colored_level">
+           <img class="logo-size" src="/theme_penguin_apparels/static/src/images/logos/Inspect-Logo.png"/>
+             <h3 class="primary-paragraph">In Progress Inspection</h3>
+            </div>
+            
+            <div class="col-lg-4 pt32 pb32 text-center o_colored_level">
+            <img class="logo-size" src="/theme_penguin_apparels/static/src/images/logos/Shirt-Logo.png"/>
+             <h3 class="primary-paragraph">Finished product inspection</h3>
+            </div>
+          </div>
+
+            </div>
+          <div class="col-lg-6 pt16 pb16 o_colored_level">
+            <div class="row s_nb_column_fixed">
+            <div class="o_masonry_col o_snippet_not_selectable col-lg-4 no-padding-margin">
+              <div class="image-container"><img class="img img-fluid d-block texton-image" src="/theme_penguin_apparels/static/src/images/Stretching-Machine-Web-View.png"/><div class="image_text">Stretching</div></div>
+              <br/>
+              <div class="image-container"><img class="img img-fluid d-block texton-image" src="/theme_penguin_apparels/static/src/images/Filling-Machine-Web-View.jpg"/><div class="image_text">Filling</div></div>
+              <br/>
+              <div class="image-container"><img class="img img-fluid d-block texton-image" src="/theme_penguin_apparels/static/src/images/Cutting-Machine-Web-View.jpg"/><div class="image_text">Cutting</div></div>
+             
+            </div>
+            <div class="o_masonry_col o_snippet_not_selectable col-lg-4 no-padding-margin">
+              <div class="image-container"><img class="img img-fluid d-block texton-image" src="/theme_penguin_apparels/static/src/images/Pressing-Machine-Web-View.png"/><div class="image_text">Pressing</div></div>
+              <br/>
+              <div class="image-container"><img class="img img-fluid d-block texton-image" src="/theme_penguin_apparels/static/src/images/Quilting-Machine-Web-View.jpg"/><div class="image_text">Quilting</div></div>
+            </div>
+            <div class="o_masonry_col o_snippet_not_selectable col-lg-4 no-padding-margin">
+              <div class="image-container"><img class="img img-fluid d-block texton-image" src="/theme_penguin_apparels/static/src/images/Sewing-Machine-Web-View.jpg"/><div class="image_text">Sewing</div></div>
+              <br/>
+              <div class="image-container"><img class="img img-fluid d-block texton-image" src="/theme_penguin_apparels/static/src/images/Washing-Machine-Web-View.png"/><div class="image_text">Washing</div></div>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="s_image_gallery s_image_gallery_show_indicators s_image_gallery_indicators_rounded pt24 o_colored_level o_slideshow process-content-mobile" data-vcss="001" data-columns="3" style="overflow: hidden; height: 459px;" data-snippet="s_image_gallery" data-name="Image Gallery">
+        <div class="container">
+          <div class="row">
+          <div class="col-lg-9 pb16 o_colored_level">
+              <h3 class="primary-heading">Why are we That Special?</h3>
+               </div>
+            <div class="col-lg-3 pt8 o_colored_level">
+              <p class="centered-content">
+                <a href="/contactus" class="primary-btn">Send Enquery</a>
+              </p>
+            </div>
+            </div>
+          <div id="slideshow_1625416993716" class="carousel slide" data-ride="carousel" data-interval="0" style="margin: 0 12px;">
+            <div class="carousel-inner" style="padding: 0;">
+              <div class="carousel-item" style="">
+               <div class="image-container"><img class="img img-fluid d-block texton-image" src="/theme_penguin_apparels/static/src/images/Stretching-Machine-Web-View.png"/><div class="image_text">Stretching</div></div>
+               </div>
+              <div class="carousel-item undefined" style="">
+               <div class="image-container"><img class="img img-fluid d-block texton-image" src="/theme_penguin_apparels/static/src/images/Filling-Machine-Web-View.jpg"/><div class="image_text">Filling</div></div>
+               </div>
+              <div class="carousel-item undefined" style="">
+             <div class="image-container"><img class="img img-fluid d-block texton-image" src="/theme_penguin_apparels/static/src/images/Cutting-Machine-Web-View.jpg"/><div class="image_text">Cutting</div></div>
+             </div>
+              <div class="carousel-item undefined active" style="">
+             <div class="image-container"><img class="img img-fluid d-block texton-image" src="/theme_penguin_apparels/static/src/images/Pressing-Machine-Web-View.png"/><div class="image_text">Pressing</div></div>
+                 </div>
+              <div class="carousel-item undefined" style="">
+            <div class="image-container"><img class="img img-fluid d-block texton-image" src="/theme_penguin_apparels/static/src/images/Quilting-Machine-Web-View.jpg"/><div class="image_text">Quilting</div></div>
+            </div>
+              <div class="carousel-item undefined" style="">
+             <div class="image-container"><img class="img img-fluid d-block texton-image" src="/theme_penguin_apparels/static/src/images/Sewing-Machine-Web-View.jpg"/><div class="image_text">Sewing</div></div>
+                </div>
+              <div class="carousel-item undefined" style="">
+               <div class="image-container"><img class="img img-fluid d-block texton-image" src="/theme_penguin_apparels/static/src/images/Washing-Machine-Web-View.png"/><div class="image_text">Washing</div></div>
+            </div>
+            </div>
+            <a class="carousel-control-prev o_we_no_overlay" href="#slideshow_1625416993716" data-slide="prev" aria-label="Previous" title="Previous">
+              <span class="fa fa-chevron-left fa-2x text-white"/>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next o_we_no_overlay" href="#slideshow_1625416993716" data-slide="next" aria-label="Next" title="Next">
+              <span class="fa fa-chevron-right fa-2x text-white" data-original-title="" title="" aria-describedby="tooltip411103"/>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+      </section>
+</template>
+<template id="s_content_company_built" name="content Company Built">
+  <section class="centered-content s_call_to_action o_cc  pt48 pb24 o_colored_level">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-9 pb16 o_colored_level">
+              <h3 class="primary-heading">We Care as We Built</h3>
+              <p class="primary-paragraph">This world is for everyone and we ensure we respect resourses and we are certified social friendly as we built these wonderful products for you</p>
+            </div>
+            <div class="col-lg-4 pt32 pb32 text-center o_colored_level">
+            <p class="primary-paragraph">GREEN BUILDING GOLD RATING by</p>
+            <h3 class="primary-heading"> LEED AND IGBC</h3>
+            </div>
+            <div class="col-lg-4 pt32 pb32 text-center o_colored_level">
+            <p class="primary-paragraph">WATER HARVEST WITH</p>
+            <h3 class="primary-heading">RWH SYSTEM</h3>
+            </div>
+            <div class="col-lg-4 pt32 pb32 text-center o_colored_level">
+            <p class="primary-paragraph">ENERGY CONVERSION</p>
+           <h3 class="primary-heading">SOLAR-PV SYSTEM</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+</template>
+
+
+
+
+
+
+
+
+<template id="place_into_one" inherit_id="website.snippets" name="Place into one">
+    <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
+        <t t-snippet="theme_penguin_apparels.s_company_summary" t-thumbnail="/theme_penguin_apparels/static/src/images/logos/PenguinApparels-Logo.png"/>
+    </xpath>
+</template>
+
+<template id="place_into_two" inherit_id="website.snippets" name="Place into two">
+    <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
+        <t t-snippet="theme_penguin_apparels.s_content_principles" t-thumbnail="/theme_penguin_apparels/static/src/images/logos/PenguinApparels-Logo.png"/>
+    </xpath>
+</template>
+<template id="place_into_three" inherit_id="website.snippets" name="Place into three">
+    <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
+        <t t-snippet="theme_penguin_apparels.s_content_products" t-thumbnail="/theme_penguin_apparels/static/src/images/logos/PenguinApparels-Logo.png"/>
+    </xpath>
+</template>
+<template id="place_into_four" inherit_id="website.snippets" name="Place into four">
+    <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
+        <t t-snippet="theme_penguin_apparels.s_content_quality_list" t-thumbnail="/theme_penguin_apparels/static/src/images/logos/PenguinApparels-Logo.png"/>
+    </xpath>
+</template>
+<template id="place_into_six" inherit_id="website.snippets" name="Place into six">
+    <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
+        <t t-snippet="theme_penguin_apparels.s_content_process_list" t-thumbnail="/theme_penguin_apparels/static/src/images/logos/PenguinApparels-Logo.png"/>
+    </xpath>
+</template>
+<template id="place_into_five" inherit_id="website.snippets" name="Place into five">
+    <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
+        <t t-snippet="theme_penguin_apparels.s_content_company_built" t-thumbnail="/theme_penguin_apparels/static/src/images/logos/PenguinApparels-Logo.png"/>
+    </xpath>
+</template>
 </odoo>
